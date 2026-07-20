@@ -18,17 +18,6 @@ npm run dev
 
 Node.js 24 이상을 권장합니다.
 
-## 배포하기
-
-- 앱인토스 배포 API 키는 [앱인토스 콘솔](https://apps-in-toss.toss.im/) > 워크스페이스 > API 키 > 콘솔 API 키 에서 발급받을 수 있어요.
-
-```bash
-npm run build
-npm run deploy
-```
-
-출시 전 `granite.config.ts`의 `appName`을 콘솔 값과 일치시키고 `brand.icon`에 콘솔에 등록한 로고의 HTTPS 주소를 입력하세요.
-
 ## 유용한 링크
 
 - [앱인토스 콘솔](https://apps-in-toss.toss.im/)
