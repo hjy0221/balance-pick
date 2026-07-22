@@ -1,5 +1,7 @@
 # 밸런스픽
 
+[한국어](#밸런스픽) · [English](#english)
+
 8개의 밸런스 질문에 답하고 선택 성향을 확인하는 앱인토스 비게임형 미니앱 MVP입니다.
 
 ## 구현된 흐름
@@ -25,3 +27,25 @@ Node.js 24 이상을 권장합니다.
 - [앱인토스 개발자 커뮤니티](https://techchat-apps-in-toss.toss.im/)
 
 AI를 사용하시는 경우 [여기](https://developers-apps-in-toss.toss.im/development/llms.html)를 확인해보세요.
+
+---
+
+## English
+
+Balance Pick is a non-game Apps in Toss mini-app MVP. Users answer eight balance questions and receive a summary of their decision-making style.
+
+### User flow
+
+- Landing screen → eight questions → participation ratios → personality result
+- Four result types: Lightning Decider, Strategic Solver, Empathetic Peacemaker, and Curious Explorer
+- Result sharing through a Toss deep link and the native share sheet
+
+### Getting started
+
+```bash
+nvm use
+npm install
+npm run dev
+```
+
+Node.js 24 or later is recommended. Production bundles can be created with `npm run build`.
