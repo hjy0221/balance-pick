@@ -49,3 +49,11 @@ npm run dev
 ```
 
 Node.js 24 or later is recommended. Production bundles can be created with `npm run build`.
+
+
+### Useful links
+
+- [Apps in Toss console](https://apps-in-toss.toss.im/)
+- [Developer center](https://developers-apps-in-toss.toss.im/)
+- [Developer community](https://techchat-apps-in-toss.toss.im/)
+- [Documentation for AI tools](https://developers-apps-in-toss.toss.im/development/llms.html)
